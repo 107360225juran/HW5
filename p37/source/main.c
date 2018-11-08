@@ -10,7 +10,7 @@ main()
 		a[i] = i * 2;
 	}
 	printf("Enter integer search key:");
-	scanf_s("%d\n",&x,sizeof(a));
+	scanf_s("%d",&x,sizeof(a));
 	element= linesearch(a,x);
 	if (element != -1)
 	{
